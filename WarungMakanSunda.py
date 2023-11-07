@@ -1,4 +1,77 @@
+################ Libary
+import os
 
+################ Data Karyawan
+namaKaryawan = ["Asep", "Irama", "Suetono"]
+passKaryawan = ["asep123", "iramacantik", "g30ppkn"]
+
+################ Property
+usernameLogin = ""
+passLogin = ""
+statusLogin = True
+pilihMenu = 0
+menuAktif = "login"
+
+################ Function
+def MenuLogin() : 
+    global usernameLogin
+    global passLogin
+    global pilihMenu
+    global statusLogin
+    global menuAktif
+
+    print("===================================================================")
+    print("                         Warung Makan Sunda")
+    print("===================================================================")
+    print("[1] Login")
+    print("[2] Exit")
+    print("")
+    pilihMenu = int(input("Pilih Menu : "))
+
+    # Cek Menu
+    if pilihMenu == 2 :
+        print("Terima kasih atas pekerjaan hari ini ~")
+        exit()
+    elif pilihMenu == 1 :
+        os.system('cls')
+        print("===================================================================")
+        print("                 Warung Makan Sunda - Login Karyawan")
+        print("===================================================================")
+        usernameLogin = str(input("Username      :   "))
+        passLogin = str(input("Password      :   "))
+
+        # Validasi Login
+        for i in range(len(namaKaryawan) + 1) :
+            if statusLogin == False and i != len(namaKaryawan) :
+                if namaKaryawan[i] == usernameLogin and passKaryawan[i] == passLogin :
+                    print("Login Berhasil")
+                    statusLogin = True
+                    menuAktif = "dashboard"
+            elif statusLogin == False and i == len(namaKaryawan) :
+                print("Username/Password tidak di temukan")
+                ctn = input("...")
+                os.system('cls')
+            
+
+def Dashboard(usernameLogin) :
+    print("===================================================================")
+    print("                 Warung Makan Sunda - Halo ", usernameLogin)
+    print("===================================================================")
+    print("[1] Buat Pesanan")
+    print("[2] Cek Pesanan")
+    print("[3] Logout")
+
+i = 1
+while i == 1 :
+    os.system('cls')
+
+    match menuAktif :
+        case "login" :
+            MenuLogin()
+        case "dashboard" :
+            Dashboard(usernameLogin)
+
+exit()
 
 
 
