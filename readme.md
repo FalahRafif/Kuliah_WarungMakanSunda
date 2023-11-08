@@ -9,7 +9,6 @@
 [1] Buat Pesanan
 [2] History Pesanan
 [3] Logout
-Pilih Menu : ..
 ```
 
 > Project POS Rumah Makan Sunda menggunakan Native Python
@@ -60,7 +59,7 @@ Uang di Bayar              :    Rp. 50000
 - Lihat History
 ```
 ===================================================================
-                 Warung Makan Sunda - Halo  Asep
+                 Warung Makan Sunda - Halo  User
                             History Pesanan
 =========================================================================
 1. Pesanan Atas Nama 'user' - Total Harga : 34000
@@ -76,10 +75,10 @@ Uang di Bayar              :    Rp. 50000
 <table>
   <tbody>
     <tr>
-	<td align="center"><a href="#"><img src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Fahri Husaini"/><br /><sub><b>Developer, Project Lead</b></sub><br />Fahri Husaini</a></td>
-      <td align="center"><a href="https://github.com/FalahRafif"><img src="https://avatars.githubusercontent.com/u/61583572?v=4" width="100px;" alt="Falah Rafif"/><br /><sub><b>Developer</b></sub><br />Falah Rafif</a></td>
-	  <td align="center"><a href="#"><img src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Syabid albasith"/><br /><sub><b>Developer</sub><br />Syabid albasith</a></td>
-	  <td align="center"><a href="#"><img align="center" src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Gabriel Kevin Marcellino Muljoko"/><br /><sub><b>Developer</b></sub><br />Gabriel Kevin M. M.</a></td>
+	<td align="center"><img src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Fahri Husaini"/><br /><sub><b>Developer, Project Lead</b></sub><br />Fahri Husaini</td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/61583572?v=4" width="100px;" alt="Falah Rafif"/><br /><sub><b>Developer</b></sub><br /><a href="https://github.com/FalahRafif">Falah Rafif</a></td>
+	  <td align="center"><img src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Syabid albasith"/><br /><sub><b>Developer</b></sub><br />Syabid albasith</td>
+	  <td align="center"><img align="center" src="https://avatars.githubusercontent.com/u/128364222?v=4" width="100px;" alt="Gabriel Kevin Marcellino Muljoko"/><br /><sub><b>Developer</b></sub><br />Gabriel Kevin M. M.</a></td>
       </tr>
     </tbody>
 </table>
