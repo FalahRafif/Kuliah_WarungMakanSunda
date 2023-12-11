@@ -17,10 +17,5 @@ while i == 1 :
             case "history-pesanan" :
                 _modul.HistoryPesanan(_modul.usernameLogin)
     except ValueError as ex:
-        print("=======================[Error]=======================")
-        print(ex)
-        print("=======================[Error]=======================")
-        print("Terjadi Kesalahan Sistem, Silahkan di Coba Kembali",)
-        a = input("...")
-
+        _modul.ErrorHandler(ex)
 exit()
